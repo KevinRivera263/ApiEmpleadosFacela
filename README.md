@@ -14,7 +14,27 @@ npm install
 
 ---
 
-## ▶ Ejecución
+# Estructura del Proyecto
+
+ApiEmpleados/
+├── controllers/
+│   └── empleados.controller.js
+├── data/
+│   └── DataEmpleados.json
+├── middleware/
+│   └── logger.js
+├── node_modules/   # (ignorado en GitHub por .gitignore)
+├── routes/
+│   └── empleados.routes.js
+├── services/
+│   └── empleados.service.js
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── README.md
+└── server.js
+ ---
+##  Ejecución
 
 Modo desarrollo (con nodemon):
 npm run dev
@@ -53,7 +73,7 @@ curl -X GET http://localhost:3000/estadisticas
 
 ---
 
-## 📄 Notas
+##  Notas
 - Los datos iniciales están en data/DataEmpleados.json
 - Cada petición queda registrada en consola con el middleware logger.
 - 
