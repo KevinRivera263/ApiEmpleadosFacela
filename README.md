@@ -15,7 +15,7 @@ npm install
 ---
 
 # Estructura del Proyecto
-
+```plaintext
 ApiEmpleados/
 ├── controllers/
 │   └── empleados.controller.js
@@ -33,7 +33,7 @@ ApiEmpleados/
 ├── package-lock.json
 ├── README.md
 └── server.js
- ---
+```
 ##  Ejecución
 
 Modo desarrollo (con nodemon):
