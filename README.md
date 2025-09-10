@@ -1,7 +1,7 @@
 # API Empleados Facela
 
 API REST desarrollada en **Node.js + Express** Nota: se desarrollo con Node.js version v20.19.4 
-La API gestiona empleados almacenados en el archivo de DataEmpleadoss.json proporcionado
+La API gestiona empleados almacenados en el archivo de DataEmpleados.json proporcionado
 ---
 
 ## Instalación...
@@ -27,7 +27,7 @@ http://localhost:3000
 
 ---
 
-##  Endpoints principales
+##  Endpoints principales (cURL incluido para su uso en Postman)
 
 ### Listar empleados
 curl -X GET http://localhost:3000/empleados
