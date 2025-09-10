@@ -35,20 +35,6 @@ app.get('/', (req, res) => {
 
 const PORT = 3000;
 app.listen(PORT, () => {
-  console.log(` ============= Servidor corriendo en http://localhost:${PORT} ================`);
-  console.log(`✅ Endpoint raíz (check 200):`);
-  console.log(`curl -X GET http://localhost:${PORT}/`);
-  console.log(``);
-  console.log(` Endpoints disponibles con cURL (para su uso en Postman):`);
-  console.log(`curl -X GET     http://localhost:${PORT}/empleados`);
-  console.log(`curl -X GET     http://localhost:${PORT}/empleados/mayores`);
-  console.log(`curl -X POST    http://localhost:${PORT}/empleados \\`);
-  console.log(`     -H "Content-Type: application/json" \\`);
-  console.log(`     -d "{ \\"nombre\\": \\"Kevin\\", \\"edad\\": 25, \\"puesto\\": \\"Dev\\", \\"departamento\\": \\"IT\\" }"`);
-  console.log(`curl -X PUT     http://localhost:${PORT}/empleados/1 \\`);
-  console.log(`     -H "Content-Type: application/json" \\`);
-  console.log(`     -d "{ \\"edad\\": 26, \\"puesto\\": \\"Dev\\" }"`);
-  console.log(`curl -X DELETE  http://localhost:${PORT}/empleados/1`);
-  console.log(`curl -X GET     http://localhost:${PORT}/estadisticas`);
-  console.log(` ============================================================================`);
+  console.log(`http://localhost:${PORT}`);
+
 });
